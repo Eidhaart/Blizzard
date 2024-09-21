@@ -1,0 +1,119 @@
+/* Ensure the entire layout is contained */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Main Style */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0; /* Ensure it starts from the left edge */
+  width: 100%; /* Full width to prevent any shifts */
+  padding: 20px 40px;
+  transition: all 0.3s ease;
+  background: transparent;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensure proper spacing between items */
+}
+
+/* Navbar background when scrolled */
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  max-width: 1200px; /* Set a max width for better centering */
+  margin: 0 auto; /* Center the navbar within the page */
+}
+
+.navbar-logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.navbar-title {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+/* Centering buttons between title and screen edge */
+.navbar-links {
+  display: flex;
+  gap: 30px;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.navbar-link {
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  background: none;
+}
+
+.navbar-link:hover {
+  border-bottom: 2px solid white;
+}
+
+/* Hamburger Menu */
+.navbar-hamburger {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 1000px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+  }
+
+  .navbar-links.open {
+    display: flex;
+  }
+
+  .navbar-hamburger {
+    display: block;
+  }
+
+  .navbar-title {
+    text-align: center;
+    width: 100%;
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,79 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.85
+  ); /* 85% transparent dark grey background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal-overlay.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-content {
+  background-color: #333; /* Dark grey content background */
+  color: white;
+  padding: 0; /* No padding here, as we want the banner to go edge to edge */
+  width: 70%; /* 70% of the screen width */
+  height: 80%; /* 80% of the screen height */
+  border-radius: 10px;
+  overflow-y: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white;
+}
+
+/* Banner Styles */
+.modal-banner {
+  width: 100%;
+  height: 30%; /* Adjust height depending on the banner's aspect ratio */
+}
+
+.modal-banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+  object-position: top; /* Display the top portion of the image */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-position: 0 30%; /* This will shift the image down by 20px */
+}
+
+/* Content below the banner */
+.modal-description {
+  padding: 20px;
+}
+
+/* Scrollbar styling */
+.modal-content::-webkit-scrollbar {
+  width: 10px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 5px;
+}

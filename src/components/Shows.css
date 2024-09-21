@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+.shows-section {
+  background-color: #111; /* Dark background for consistency */
+  color: white;
+  padding: 60px 40px;
+}
+
+.shows-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.shows-heading {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.shows-intro {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin-bottom: 40px;
+}
+
+.show-category {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  flex-wrap: wrap; /* Responsive layout for smaller screens */
+}
+
+.show-text {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+}
+
+.show-text h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.show-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.show-image {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.show-image img {
+  max-width: 100%;
+  border-radius: 10px; /* Rounded corners for a modern touch */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Slight shadow for depth */
+}
+/* CTA Button Container */
+.cta-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/* Modern Button Styling */
+.cta-button,
+.about-me-cta {
+  background-color: transparent; /* Blue instead of red */
+  color: white;
+  border: 1px #c2cdda solid;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Gradient Hover Effect */
+.cta-button::before,
+.about-me-cta::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.2)
+  );
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  z-index: 0;
+}
+
+/* Hover Effect */
+.cta-button:hover::before,
+.about-me-cta:hover::before {
+  opacity: 1;
+}
+
+.cta-button:hover,
+.about-me-cta:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+
+  border-color: #fff;
+}
+
+/* Active State */
+.cta-button:active,
+.about-me-cta:active {
+  transform: translateY(0);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .show-category {
+    flex-direction: column;
+  }
+
+  .show-text {
+    text-align: center;
+  }
+
+  .show-image {
+    margin-bottom: 20px;
+  }
+}

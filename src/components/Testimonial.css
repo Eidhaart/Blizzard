@@ -1,0 +1,68 @@
+.testimonial-section {
+  padding: 60px 40px;
+  text-align: center;
+  background-color: #222; /* Darker background */
+  color: white;
+}
+
+.testimonial-heading {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background-color: #333; /* Dark card background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  width: 30%;
+  min-width: 250px;
+  color: white;
+}
+
+.testimonial-quote {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #bbb;
+  margin-bottom: 15px;
+}
+
+.testimonial-name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.testimonial-role {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.testimonial-cta-container {
+  margin-top: 40px;
+}
+
+.testimonial-cta-button {
+  background-color: transparent; /* Blue instead of red */
+  color: white;
+  border: 1px #c2cdda solid;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.testimonial-cta-button:hover {
+  background-color: #0056b3;
+}
