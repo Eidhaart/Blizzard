@@ -1,5 +1,5 @@
 .gallery-section {
-  padding: 60px 40px;
+  padding: 60px 20px; /* Reduce padding on mobile */
   text-align: center;
   background-color: #111;
 }
@@ -15,12 +15,14 @@
   display: flex;
   justify-content: center;
   gap: 20px;
+  flex-wrap: wrap; /* Allow the images to wrap on smaller screens */
   margin-top: 10px;
 }
 
 .gallery-thumbnail {
-  width: 400px;
-  height: 300px;
+  width: 100%; /* Ensure full width on smaller screens */
+  max-width: 400px; /* Maintain a max width for larger screens */
+  height: auto; /* Maintain aspect ratio */
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
@@ -31,7 +33,7 @@
 }
 
 .gallery-cta-button {
-  background-color: transparent; /* Blue instead of red */
+  background-color: transparent;
   color: white;
   border: 1px #c2cdda solid;
   padding: 15px 30px;
@@ -45,4 +47,33 @@
 .gallery-cta-button:hover {
   background-color: rgba(255, 255, 255, 0.1);
   transform: translateY(-0.1px);
+}
+
+/* Mobile-specific styling */
+@media (max-width: 768px) {
+  .gallery-section {
+    padding: 30px 20px; /* Adjust padding for mobile */
+  }
+
+  .gallery-heading {
+    font-size: 2rem; /* Slightly smaller font size on mobile */
+    margin-bottom: 30px;
+  }
+
+  .gallery-preview {
+    flex-direction: column; /* Stack the images vertically on smaller screens */
+    gap: 20px;
+  }
+
+  .gallery-thumbnail {
+    width: 100%; /* Ensure the images are full width on mobile */
+    max-width: 100%; /* Remove max width for mobile */
+    height: auto; /* Auto height to maintain aspect ratio */
+  }
+
+  .gallery-cta-button {
+    width: 100%; /* Full-width button on mobile */
+    padding: 12px 20px; /* Adjust padding */
+    font-size: 1rem; /* Slightly smaller font size */
+  }
 }
