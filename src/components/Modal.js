@@ -12,52 +12,56 @@ const Modal = ({ showModal, handleClose }) => {
           &times;
         </span>
         <div className="modal-banner">
-          <img src="banner.jpg" alt="Banner" className="modal-banner-img" />
+          <img
+            src={`${process.env.PUBLIC_URL}/banner.jpg`}
+            alt="Banner"
+            className="modal-banner-img"
+          />
         </div>
         <div className="modal-description">
-          <h2>About Me</h2>
+          <h2>O mnie</h2>
+          <br></br>
+
           <p>
-            My name is Bartosz Gadziomski. I have been involved with horses and
-            dogs since birth. Dogs and horses have always been present in our
-            home. From a young age, I rode horses, and actually, my mother rode
-            while pregnant with me. I just continued the family tradition, and
-            there is much to continue, as one of my great-grandfathers was a
-            lancer, and the other a cavalryman.
-            <br />
-            <br />
-            My adventure with dog sledding ran parallel to my work with horses.
-            I had my first start in dog sledding in 1994, and over the years, I
-            have achieved several titles including Polish Champion, Vice World
-            Champion, and European Champion in various disciplines (from 6-dog
-            sleds to canicross). I have competed on tracks across almost all of
-            Europe, as well as in the USA and Canada.
-            <br />
-            <br />
-            Horses taught me composure, precision, and accuracy, while dog
-            sports gave me self-belief, strength, and resilience. Such extensive
-            experience obliges me to prioritize the well-being of the animals we
-            work with. As a result, they are emotionally connected to us, trust
-            us fully, and become engaged actors rather than mere performers in
-            our shows.
-            <br />
-            <br />
-            I began my career as a horse stunt performer as a young man with
-            Jacek Kadłubowski's group in Andrzej Wajda’s film Pan Tadeusz. Then
-            in 2000, I traveled with the Malinowscy Trick Riders to the town of
-            High Chaparral in Sweden, where my adventure with horse shows began
-            and continues to this day. I gained experience with the best groups
-            in Poland and abroad. I have gone through all career levels, from a
-            rider in a theme park to an organizer of historical events and a
-            stunt coordinator for large film productions, both Polish and
-            international. This experience allowed me to create the best horse
-            group in Poland and the best stunt team. Each of us is a specialist
-            in our field, allowing us to complement each other and create
-            fantastic shows and performances, while on film sets, we guarantee
-            the highest professionalism, experience, and safety.
-            <br />
-            <br />
-            Explore our offer, and we will gladly introduce you to our magical
-            world full of extreme experiences and education.
+            Nazywam się Bartosz Gadziomski. Z końmi i psami jestem związany od
+            urodzenia. Zawsze w naszym domu obecne były psy i konie. Od
+            najmłodszych lat jeździłem konno, a właściwie moja mama jeździła
+            konno będąc w ciąży. Ja już tylko kontynuowałem tradycje rodzinne, a
+            jest co kontynuować, gdyż jeden z moich pradziadków był ułanem, a
+            drugi szwoleżerem.
+            <br></br>
+            <br></br>
+            Przygoda z końmi szła równolegle ze sportem psich zaprzęgów w którym
+            swój pierwszy start zaliczyłem w 1994 roku, a potem na przestrzeni
+            lat sięgnąłem po kilka tytułów Mistrza Polski, V-ce Mistrza świata i
+            Mistrza Europy w różnych dyscyplinach (od 6 psich zaprzęgów po
+            canicross). Startowałem na trasach prawie w całej Europie jak w USA
+            i Kanadzie Konie nauczyły mnie opanowania, dokładności i precyzji, a
+            sport z psami dał mi wiarę w siebie siłę i niezłomność. Tak duże
+            doświadczenie zobowiązuje mnie do stawiania na pierwszym miejscu
+            dobrostanu zwierząt z którymi pracujemy. Dzięki temu są emocjonalnie
+            z nami związane, ufają nam w pełni i stają się zaangażowanymi
+            aktorami, a nie tylko odtwórcami w naszych spektaklach. Swoją
+            karierę kaskadera konnego zacząłem jako młody chłopak w grupie Jacka
+            Kadłubowskiego w filmie Andrzeja Wajdy “Pan Tadeusz”. Potem w 2000
+            roku wyjechałem wraz z grupą Malinowscy Trick Riders do miasteczka
+            High Chaparral w Szwecji i tam zaczęła się moja przygoda z pokazami
+            konnymi, która trwa do dziś. Zdobywałem doświadczenie w najlepszych
+            grupach w Polsce i za granicą.
+            <br></br>
+            <br></br>
+            Poznałem wszystkie szczeble kariery od jeźdźca w parku rozrywki po
+            organizatora imprez historycznych i koordynatora kaskaderskiego w
+            dużych produkcjach filmowych polskich i zagranicznych. Dzięki temu
+            udało mi się stworzyć najlepszą grupę konną w Polsce oraz najlepszy
+            team kaskaderski. Każdy z nas jest specjalistą w swojej dziedzinie,
+            dzięki temu uzupełniamy się i tworzymy fantastyczne spektakle i
+            przedstawienia, a na planie filmowym gwarantujemy najwyższy
+            profesjonalizm, doświadczenie i bezpieczeństwo.
+            <br></br>
+            <br></br>
+            Zapoznaj się z naszą ofertą a z przyjemnością wprowadzimy Cię w nasz
+            magiczny świat pełen ekstremalnych doznań oraz edukacji.
           </p>
         </div>
       </div>

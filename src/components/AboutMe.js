@@ -19,7 +19,7 @@ const AboutMe = () => {
             />
           </div>
           <div className="about-me-text">
-            <h2>About Me</h2>
+            <h2>O Mnie</h2>
             <p>
               I’m Bartosz Gadziomski, a lifelong horse rider and champion dog
               sledder. With over two decades of experience in stunt coordination

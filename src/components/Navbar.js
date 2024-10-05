@@ -73,31 +73,40 @@ const Navbar = () => {
             onClick={() => scrollToSection("home")}
             className="navbar-link"
           >
-            Home
+            Strona główna
           </button>
           <button
             onClick={() => scrollToSection("about")}
             className="navbar-link"
           >
-            About Me
+            O mnie
           </button>
           <button
             onClick={() => scrollToSection("shows")}
             className="navbar-link"
           >
-            Shows
+            Pokazy
           </button>
+
+          {/* Filmy Reklamy i Sesje Zdjęciowe Section */}
           <button
-            onClick={() => scrollToSection("gallery")}
+            onClick={() => scrollToSection("filmy-reklamy")}
             className="navbar-link"
           >
-            Gallery
+            Filmy Reklamy i Sesje Zdjęciowe
+          </button>
+          {/* Subsections */}
+          <button
+            onClick={() => scrollToSection("zwierzeta-do-sesji")}
+            className="navbar-link navbar-sub-link"
+          >
+            Zwierzeta do Sesji i Filmów
           </button>
           <button
-            onClick={() => scrollToSection("testimonials")}
-            className="navbar-link"
+            onClick={() => scrollToSection("kaskaderka-filmowa")}
+            className="navbar-link navbar-sub-link"
           >
-            Testimonials
+            Kaskaderka Filmowa
           </button>
         </div>
       </div>

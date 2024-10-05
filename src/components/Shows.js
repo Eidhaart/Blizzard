@@ -16,12 +16,12 @@ const Shows = () => {
   return (
     <section className="shows-section" id="shows">
       <div className="shows-container">
-        <h2 className="shows-heading">Our Shows</h2>
+        <h2 className="shows-heading">Nasze Pokazy</h2>
         <p className="shows-intro">
-          Since 2000, I have organized horseback stunt shows, historical
-          reenactments, dog sled demonstrations, and more. We are a group that
-          not only focuses on the visual effect but also on education. Explore
-          two of our most popular categories below.
+          Od 2000 roku organizuję pokazy kaskaderskie konne, historyczne, psich
+          zaprzęgów i nie tylko. Jesteśmy grupą stawiająca nie tylko na efekt,
+          ale i na edukację. Mam nadzieję, że nasza oferta zainteresuje Państwa
+          i zechcecie nas obejrzeć na jednym z organizowanych przez Was eventów.
         </p>
 
         {/* Husaria Category */}
