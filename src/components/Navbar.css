@@ -11,7 +11,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  padding: 15px 20px; /* Reduce padding for better mobile fit */
+  padding: 15px 20px;
   transition: all 0.3s ease;
   background: transparent;
   z-index: 1000;
@@ -41,7 +41,7 @@
 
 .navbar-logo {
   width: 40px;
-  height: 40px; /* Reduce logo size for mobile */
+  height: 40px;
   border-radius: 50%;
   margin-right: 15px;
 }
@@ -66,16 +66,67 @@
   color: white;
   font-size: 1rem;
   text-decoration: none;
-  padding: 8px 15px; /* Slightly reduce padding for mobile */
+  padding: 8px 15px;
   border: 2px solid transparent;
-  background: none; /* Make sure the background is transparent */
+  background: none;
   transition: all 0.3s ease;
   text-transform: uppercase;
 }
 
 .navbar-link:hover {
-  background-color: transparent; /* Ensure no background change on hover */
-  border-bottom: 2px solid white; /* Underline on hover */
+  background-color: transparent;
+  border-bottom: 2px solid white;
+}
+
+/* Dropdown menu styling */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%; /* Stick to the bottom of the "Usługi" button */
+  left: 50%;
+  transform: translateX(-50%); /* Center the dropdown */
+  display: none; /* Initially hidden */
+  flex-direction: column;
+  background: none; /* Fully transparent background */
+  padding: 0; /* Remove any padding */
+  border: none; /* No borders */
+  box-shadow: none; /* Remove any box shadows */
+  z-index: 999;
+}
+
+.dropdown-menu.show {
+  display: flex; /* Show the dropdown */
+}
+
+/* Explicitly remove borders and shadows on dropdown items */
+.dropdown-item {
+  color: white;
+  padding: 10px 20px;
+  text-align: center; /* Center-align the dropdown items */
+  background-color: transparent; /* Transparent background for items */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-bottom: 2px solid white; /* White bottom border for dropdown items */
+  border: none; /* Ensure no additional borders */
+  box-shadow: none; /* Remove any box shadow */
+  outline: none; /* Remove any outline */
+}
+
+.dropdown-item:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* Slight background change on hover */
+  color: white;
+}
+
+/* Remove the last item's border */
+.dropdown-item:last-child {
+  border-bottom: none;
 }
 
 /* Hamburger Menu */
@@ -85,7 +136,7 @@
   border: none;
   color: white;
   cursor: pointer;
-  display: none; /* Hidden on desktop */
+  display: none;
 }
 
 /* Mobile Responsive Design */
@@ -93,11 +144,11 @@
   .navbar-container {
     flex-direction: column;
     align-items: center;
-    padding: 10px 0; /* Aligns items better on mobile */
+    padding: 10px 0;
   }
 
   .navbar-links {
-    display: none; /* Hide links initially */
+    display: none;
     flex-direction: column;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.9);
@@ -109,17 +160,27 @@
   }
 
   .navbar-link {
-    padding: 12px 0; /* Space out the links vertically */
-    font-size: 1.1rem; /* Slightly larger font on mobile */
+    padding: 12px 0;
+    font-size: 1.1rem;
   }
 
   .navbar-hamburger {
-    display: block; /* Show hamburger on mobile */
+    display: block;
   }
 
   .navbar-title {
     text-align: center;
     width: 100%;
-    font-size: 1.2rem; /* Reduce title size for mobile */
+    font-size: 1.2rem;
+  }
+
+  .dropdown-menu {
+    width: 100%; /* Full width on mobile */
+    left: 50%; /* Center on mobile */
+    transform: translateX(-50%);
+  }
+
+  .dropdown-item {
+    text-align: center;
   }
 }

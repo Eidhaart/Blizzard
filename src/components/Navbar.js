@@ -5,6 +5,7 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false); // State for mobile menu
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false); // State for dropdown
 
   useEffect(() => {
     const handleScroll = () => {
@@ -81,32 +82,51 @@ const Navbar = () => {
           >
             O mnie
           </button>
-          <button
-            onClick={() => scrollToSection("shows")}
-            className="navbar-link"
-          >
-            Pokazy
-          </button>
 
-          {/* Filmy Reklamy i Sesje Zdjęciowe Section */}
+          {/* Usługi Dropdown */}
+          <div
+            className="navbar-link dropdown"
+            onMouseEnter={() => setIsDropdownOpen(true)}
+            onMouseLeave={() => setIsDropdownOpen(false)}
+          >
+            Usługi
+            <div className={`dropdown-menu ${isDropdownOpen ? "show" : ""}`}>
+              <button
+                onClick={() => scrollToSection("shows")}
+                className="dropdown-item"
+              >
+                Pokazy
+              </button>
+              -
+              <button
+                onClick={() => scrollToSection("filmy-reklamy")}
+                className="dropdown-item"
+              >
+                Filmy Reklamy i Sesje Zdjęciowe
+              </button>
+              -
+              <button
+                onClick={() => scrollToSection("zwierzeta-do-sesji")}
+                className="dropdown-item"
+              >
+                Zwierzęta do Sesji i Filmów
+              </button>
+              -
+              <button
+                onClick={() => scrollToSection("kaskaderka-filmowa")}
+                className="dropdown-item"
+              >
+                Kaskaderka Filmowa
+              </button>
+            </div>
+          </div>
+
+          {/* Opinie Section */}
           <button
-            onClick={() => scrollToSection("filmy-reklamy")}
+            onClick={() => scrollToSection("opinie")}
             className="navbar-link"
           >
-            Filmy Reklamy i Sesje Zdjęciowe
-          </button>
-          {/* Subsections */}
-          <button
-            onClick={() => scrollToSection("zwierzeta-do-sesji")}
-            className="navbar-link navbar-sub-link"
-          >
-            Zwierzeta do Sesji i Filmów
-          </button>
-          <button
-            onClick={() => scrollToSection("kaskaderka-filmowa")}
-            className="navbar-link navbar-sub-link"
-          >
-            Kaskaderka Filmowa
+            Opinie
           </button>
         </div>
       </div>
