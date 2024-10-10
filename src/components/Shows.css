@@ -62,17 +62,17 @@
   border-radius: 10px; /* Rounded corners for a modern touch */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Slight shadow for depth */
 }
+
 /* CTA Button Container */
 .cta-container {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 /* Modern Button Styling */
-.cta-button,
-.about-me-cta {
-  background-color: transparent; /* Blue instead of red */
+.cta-button {
+  background-color: transparent;
   color: white;
   border: 1px #c2cdda solid;
   padding: 15px 30px;
@@ -84,8 +84,7 @@
 }
 
 /* Gradient Hover Effect */
-.cta-button::before,
-.about-me-cta::before {
+.cta-button::before {
   content: "";
   position: absolute;
   top: 0;
@@ -102,23 +101,17 @@
   z-index: 0;
 }
 
-/* Hover Effect */
-.cta-button:hover::before,
-.about-me-cta:hover::before {
+.cta-button:hover::before {
   opacity: 1;
 }
 
-.cta-button:hover,
-.about-me-cta:hover {
+.cta-button:hover {
   background-color: rgba(255, 255, 255, 0.1);
   color: #fff;
-
   border-color: #fff;
 }
 
-/* Active State */
-.cta-button:active,
-.about-me-cta:active {
+.cta-button:active {
   transform: translateY(0);
   transition: all 0.2s ease-in-out;
 }

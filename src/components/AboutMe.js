@@ -27,7 +27,7 @@ const AboutMe = () => {
               combining passion, professionalism, and safety in every
               performance.
             </p>
-            <button onClick={handleOpenModal} className="about-me-cta">
+            <button onClick={handleOpenModal} className="cta-button">
               Learn More
             </button>
           </div>

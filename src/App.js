@@ -9,6 +9,9 @@ import Gallery from "./components/Gallery"; // Ensure this matches the export
 import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Filmy from "./components/Filmy";
+import Kaskaderka from "./components/Kaskaderka";
+import ObslugaImprez from "./components/ObslugaImprez";
 
 function App() {
   return (
@@ -17,8 +20,11 @@ function App() {
       <HeroSection />
       <AboutMe />
       <Shows />
+      <Filmy />
+      <Kaskaderka />
+      <ObslugaImprez />
       <Gallery />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Contact />
       <Footer />
     </div>

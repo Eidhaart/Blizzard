@@ -97,37 +97,42 @@ const Navbar = () => {
               >
                 Pokazy
               </button>
-              -
               <button
                 onClick={() => scrollToSection("filmy-reklamy")}
                 className="dropdown-item"
               >
                 Filmy Reklamy i Sesje Zdjęciowe
               </button>
-              -
-              <button
-                onClick={() => scrollToSection("zwierzeta-do-sesji")}
-                className="dropdown-item"
-              >
-                Zwierzęta do Sesji i Filmów
-              </button>
-              -
               <button
                 onClick={() => scrollToSection("kaskaderka-filmowa")}
                 className="dropdown-item"
               >
                 Kaskaderka Filmowa
               </button>
+              <button
+                onClick={() => scrollToSection("obsluga-imprez")}
+                className="dropdown-item"
+              >
+                Obsługa imprez
+              </button>
             </div>
           </div>
 
-          {/* Opinie Section */}
+          {/* Gallery Section */}
           <button
+            onClick={() => scrollToSection("gallery")}
+            className="navbar-link"
+          >
+            Galeria
+          </button>
+
+          {/* Opinie Section */}
+          {/* <button
             onClick={() => scrollToSection("opinie")}
             className="navbar-link"
           >
             Opinie
-          </button>
+          </button> */}
         </div>
       </div>
     </nav>
