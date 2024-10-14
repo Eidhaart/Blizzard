@@ -28,7 +28,7 @@ const AboutMe = () => {
               performance.
             </p>
             <button onClick={handleOpenModal} className="cta-button">
-              Learn More
+              Więcej
             </button>
           </div>
         </div>

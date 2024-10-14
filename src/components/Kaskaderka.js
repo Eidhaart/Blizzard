@@ -59,7 +59,7 @@ const Kaskaderka = () => {
           </div>
           <div className="show-image">
             <img
-              src={`${process.env.PUBLIC_URL}/HorseStunts.jpg`}
+              src={`${process.env.PUBLIC_URL}/FilmStunts.jpg`}
               alt="Horse Stunt Show"
             />
           </div>
@@ -69,7 +69,7 @@ const Kaskaderka = () => {
         <div className="show-category">
           <div className="show-image">
             <img
-              src={`${process.env.PUBLIC_URL}/FilmStunts.jpg`}
+              src={`${process.env.PUBLIC_URL}/HorseStunts.jpg`}
               alt="Film Stunt Show"
             />
           </div>
