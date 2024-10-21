@@ -1,20 +1,31 @@
 {
   "files": {
-    "main.css": "/Blizzard/static/css/main.06ede4d9.css",
-    "main.js": "/Blizzard/static/js/main.58e392d1.js",
+    "main.css": "/Blizzard/static/css/main.df0a2edd.css",
+    "main.js": "/Blizzard/static/js/main.30fc69fa.js",
     "static/js/453.d9f83c4c.chunk.js": "/Blizzard/static/js/453.d9f83c4c.chunk.js",
     "static/media/BartoszGadziomski4.jpg": "/Blizzard/static/media/BartoszGadziomski4.098d1ee7191ed3e55ccd.jpg",
     "static/media/BartoszGadziomski8.jpg": "/Blizzard/static/media/BartoszGadziomski8.a5137232c89923412d24.jpg",
-    "static/media/BartoszGadziomski2.jpg": "/Blizzard/static/media/BartoszGadziomski2.acce4bb87b73542208fe.jpg",
-    "static/media/Aleksandra Mrozińska-lisowczycy.jpg": "/Blizzard/static/media/Aleksandra Mrozińska-lisowczycy.28c7b620c0638f29b352.jpg",
-    "static/media/Monika Bolkowska-husaria.jpg": "/Blizzard/static/media/Monika Bolkowska-husaria.c03f8b7e2dd7cada883a.jpg",
+    "static/media/547C6030.jpg": "/Blizzard/static/media/547C6030.f1d55d0979aac2c204fb.jpg",
+    "static/media/_DSC1595.jpg": "/Blizzard/static/media/_DSC1595.8d101393554847f89c7f.jpg",
+    "static/media/457136242_905153911655954__n.jpg": "/Blizzard/static/media/457136242_905153911655954_6372524195072121953_n.8f19217caecb504967b7.jpg",
+    "static/media/370998569_307815415097285__n.jpg": "/Blizzard/static/media/370998569_307815415097285_3481510131212847431_n.0caf954a7636329d77bc.jpg",
+    "static/media/64902261___n.jpg": "/Blizzard/static/media/64902261_2257748774555478_7593450545231167488_n.1c46df36316e2213e7ae.jpg",
+    "static/media/371076119_307815828430577__n.jpg": "/Blizzard/static/media/371076119_307815828430577_4860999416096078520_n.be3b5515fb39b328780c.jpg",
+    "static/media/1269419_622811167759650_1738632393_o.jpg": "/Blizzard/static/media/1269419_622811167759650_1738632393_o.815128973e55d326fcb2.jpg",
+    "static/media/370485303_307815861763907__n.jpg": "/Blizzard/static/media/370485303_307815861763907_772599870875487458_n.540d4def0e2a5743ef79.jpg",
+    "static/media/enigma5.jpg": "/Blizzard/static/media/enigma5.79039b77f75c92e8091e.jpg",
+    "static/media/okruch5.jpg": "/Blizzard/static/media/okruch5.9b89f83c8150faaf6946.jpg",
+    "static/media/1002601_614219171952183_385258033_n.jpg": "/Blizzard/static/media/1002601_614219171952183_385258033_n.2b70ad801bea4ed35b18.jpg",
+    "static/media/291145666___n.jpg": "/Blizzard/static/media/291145666_1757517741257338_48463767220217075_n.e96c7904efaab4451979.jpg",
+    "static/media/enzo2.jpg": "/Blizzard/static/media/enzo2.786e2832f61561233f1c.jpg",
+    "static/media/wacław11.jpg": "/Blizzard/static/media/wacław11.5b6d1cb35172fc8126dc.jpg",
     "index.html": "/Blizzard/index.html",
-    "main.06ede4d9.css.map": "/Blizzard/static/css/main.06ede4d9.css.map",
-    "main.58e392d1.js.map": "/Blizzard/static/js/main.58e392d1.js.map",
+    "main.df0a2edd.css.map": "/Blizzard/static/css/main.df0a2edd.css.map",
+    "main.30fc69fa.js.map": "/Blizzard/static/js/main.30fc69fa.js.map",
     "453.d9f83c4c.chunk.js.map": "/Blizzard/static/js/453.d9f83c4c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06ede4d9.css",
-    "static/js/main.58e392d1.js"
+    "static/css/main.df0a2edd.css",
+    "static/js/main.30fc69fa.js"
   ]
 }
