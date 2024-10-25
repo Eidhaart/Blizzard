@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Blizzard/static/css/main.1866ad6f.css",
-    "main.js": "/Blizzard/static/js/main.5842e975.js",
+    "main.css": "/Blizzard/static/css/main.1cbb8329.css",
+    "main.js": "/Blizzard/static/js/main.fd9ada35.js",
     "static/js/453.d9f83c4c.chunk.js": "/Blizzard/static/js/453.d9f83c4c.chunk.js",
     "static/media/BartoszGadziomski4.jpg": "/Blizzard/static/media/BartoszGadziomski4.098d1ee7191ed3e55ccd.jpg",
     "static/media/BartoszGadziomski8.jpg": "/Blizzard/static/media/BartoszGadziomski8.a5137232c89923412d24.jpg",
@@ -9,6 +9,7 @@
     "static/media/DSC_8994.jpg": "/Blizzard/static/media/DSC_8994.664bbba08702eecedff4.jpg",
     "static/media/547C6030.jpg": "/Blizzard/static/media/547C6030.f1d55d0979aac2c204fb.jpg",
     "static/media/BartoszGadziomski10.jpg": "/Blizzard/static/media/BartoszGadziomski10.784d1ded14bf025d1612.jpg",
+    "static/media/wood.jpg": "/Blizzard/static/media/wood.8b1e833f8bab459214dc.jpg",
     "static/media/BartoszGadziomski2.jpg": "/Blizzard/static/media/BartoszGadziomski2.acce4bb87b73542208fe.jpg",
     "static/media/_DSC1595.jpg": "/Blizzard/static/media/_DSC1595.8d101393554847f89c7f.jpg",
     "static/media/457136242_905153911655954__n.jpg": "/Blizzard/static/media/457136242_905153911655954_6372524195072121953_n.8f19217caecb504967b7.jpg",
@@ -34,12 +35,12 @@
     "static/media/fa-v4compatibility.ttf": "/Blizzard/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/Blizzard/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/Blizzard/index.html",
-    "main.1866ad6f.css.map": "/Blizzard/static/css/main.1866ad6f.css.map",
-    "main.5842e975.js.map": "/Blizzard/static/js/main.5842e975.js.map",
+    "main.1cbb8329.css.map": "/Blizzard/static/css/main.1cbb8329.css.map",
+    "main.fd9ada35.js.map": "/Blizzard/static/js/main.fd9ada35.js.map",
     "453.d9f83c4c.chunk.js.map": "/Blizzard/static/js/453.d9f83c4c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1866ad6f.css",
-    "static/js/main.5842e975.js"
+    "static/css/main.1cbb8329.css",
+    "static/js/main.fd9ada35.js"
   ]
 }
