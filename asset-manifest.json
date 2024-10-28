@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Blizzard/static/css/main.b46b2e10.css",
-    "main.js": "/Blizzard/static/js/main.3baad1d7.js",
+    "main.css": "/Blizzard/static/css/main.9a680cc6.css",
+    "main.js": "/Blizzard/static/js/main.1ad71b02.js",
     "static/js/453.d9f83c4c.chunk.js": "/Blizzard/static/js/453.d9f83c4c.chunk.js",
     "static/media/BartoszGadziomski4.jpg": "/Blizzard/static/media/BartoszGadziomski4.098d1ee7191ed3e55ccd.jpg",
     "static/media/BartoszGadziomski8.jpg": "/Blizzard/static/media/BartoszGadziomski8.a5137232c89923412d24.jpg",
@@ -35,12 +35,12 @@
     "static/media/fa-v4compatibility.ttf": "/Blizzard/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/Blizzard/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/Blizzard/index.html",
-    "main.b46b2e10.css.map": "/Blizzard/static/css/main.b46b2e10.css.map",
-    "main.3baad1d7.js.map": "/Blizzard/static/js/main.3baad1d7.js.map",
+    "main.9a680cc6.css.map": "/Blizzard/static/css/main.9a680cc6.css.map",
+    "main.1ad71b02.js.map": "/Blizzard/static/js/main.1ad71b02.js.map",
     "453.d9f83c4c.chunk.js.map": "/Blizzard/static/js/453.d9f83c4c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b46b2e10.css",
-    "static/js/main.3baad1d7.js"
+    "static/css/main.9a680cc6.css",
+    "static/js/main.1ad71b02.js"
   ]
 }
